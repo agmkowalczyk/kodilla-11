@@ -1,2 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+.row::before, .row::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+body {
+  font-family: sans-serif; }
+
+.column-container {
+  padding: 10px;
+  background: #eaeaea; }
+
+.board {
+  padding: 10px;
+  background: #eaeaea; }
+  .board .column {
+    background: #fff;
+    padding: 10px 20px 60px 30px; }
+    .board .column:nth-child(1) {
+      background: #fcf1c7; }
+    .board .column:nth-child(2) {
+      background: #d8ffc9; }
+    .board .column:nth-child(3) {
+      background: #c7d5fc; }
+  .board ul {
+    list-style: none;
+    padding-top: 10px; }
+  .board .btn-delete {
+    float: left;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    width: 24px;
+    height: 24px; }
+  .board .card-placeholder {
+    background: red; }
 
 /*# sourceMappingURL=style.css.map */
