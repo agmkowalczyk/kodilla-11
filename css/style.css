@@ -25,6 +25,8 @@ body {
       background: #d8ffc9; }
     .board .column:nth-child(3) {
       background: #c7d5fc; }
+    .board .column:nth-child(4) {
+      clear: both; }
   .board ul {
     list-style: none;
     padding-top: 10px; }
